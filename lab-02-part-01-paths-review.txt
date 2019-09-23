@@ -107,6 +107,8 @@ g. Show all of the commands that you used to complete the above exercise.  (for 
 ----------
 
 v314-ent-005:my-stuff student$ cd ~/Desktop
+
+Longform method:
 v314-ent-005:Desktop student$ mkdir -p my-stuff/archived
 v314-ent-005:Desktop student$ cd my-stuff
 v314-ent-005:my-stuff student$ mkdir current
@@ -114,26 +116,17 @@ v314-ent-005:my-stuff student$ mkdir current
 Shanice method: 
 mkdir mystuff mystuff/archived mystuff/current
 
-v314-ent-005:my-stuff student$ mkdir V314-ENT-005
-v314-ent-005:my-stuff student$ cd /
-v314-ent-005:/ student$ ls
-Applications			Volumes				console.log.4.gz		resources:Library
-Developer			bin				dev				revs.json
-Library				cmake				etc				sbin
-Network				console.log			home				tmp
-Quarantine			console.log.0.gz		installer.failurerequests	usr
-SDKs				console.log.1.gz		net				var
-System				console.log.2.gz		opt
-Users				console.log.3.gz		private
+hostname
+mkdir mystuff/v314-ent-005
+
 v314-ent-005:/ student$ cd ~/Desktop/my-stuff
 v314-ent-005:my-stuff student$ ls -tl
-total 0
 drwxr-xr-x  2 student  staff  68 Sep  9 16:13 V314-ENT-005
 drwxr-xr-x  2 student  staff  68 Sep  9 16:12 current
 drwxr-xr-x  2 student  staff  68 Sep  9 16:12 archived
-v314-ent-005:my-stuff student$ rmdir V314-ENT-005
+
+v314-ent-005:my-stuff student$ rmdir v314-ent-005
 v314-ent-005:my-stuff student$ ls -l
-total 0
 drwxr-xr-x  2 student  staff  68 Sep  9 16:12 archived
 drwxr-xr-x  2 student  staff  68 Sep  9 16:12 current
 v314-ent-005:my-stuff student$ 
