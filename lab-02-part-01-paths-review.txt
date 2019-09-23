@@ -57,13 +57,13 @@ Desktop
 8. If you're in your home directory, how would you create a new directory on your desktop called stuff without changing your directory?  Write your command below.
 ----------
 
-mkdir -p Desktop/my-stuff
+mkdir Desktop/my-stuff
 
 ==========
 9. If you're in your root directory, how would you create a new directory on your desktop called more-stuff without changing your directory?  Write your command below.
 ----------
 
-mkdir -p ~/Desktop/my-stuff2
+mkdir ~/Desktop/my-stuff2
 
 ==========
 10. If you're in your Desktop directory, how would you create a new directory on your desktop called even-more-stuff?  Write your command below.
