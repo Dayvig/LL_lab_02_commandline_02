@@ -110,6 +110,10 @@ v314-ent-005:my-stuff student$ cd ~/Desktop
 v314-ent-005:Desktop student$ mkdir -p my-stuff/archived
 v314-ent-005:Desktop student$ cd my-stuff
 v314-ent-005:my-stuff student$ mkdir current
+
+Shanice method: 
+mkdir mystuff mystuff/archived mystuff/current
+
 v314-ent-005:my-stuff student$ mkdir V314-ENT-005
 v314-ent-005:my-stuff student$ cd /
 v314-ent-005:/ student$ ls
